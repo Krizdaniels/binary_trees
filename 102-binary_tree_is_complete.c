@@ -65,7 +65,7 @@ void _pop(link_t **head)
 	*head = temp_node;
 }
 /**
- * binary_tree_is_complete - The function that checks if a binary tree is complete
+ * binary_tree_is_complete - A function that checks if binary tree is complete
  * @tree: The Type pointer node of the tree
  * Return: 1 if it is complete and 0 if it is not
  */
