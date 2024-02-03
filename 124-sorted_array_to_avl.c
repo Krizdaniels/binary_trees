@@ -16,7 +16,7 @@ avl_t *aux_sort(avl_t *parent, int *array, int begin, int last)
 	if (begin <= last)
 	{
 		mid = (begin + last) / 2;
-		aux = binary_tree_node((binary_tree_t *)parent, array[mid]); 
+		aux = binary_tree_node((binary_tree_t *)parent, array[mid]);
 		if (aux == NULL)
 			return (NULL);
 		root = (avl_t *)aux;

@@ -53,7 +53,7 @@ int check_sub_tree_Right(const binary_tree_t *node, int min)
 }
 /**
  * binary_tree_is_bst - It says if a tree is a bst or not
- * the process here is first verified that the left node be smaller than the root
+ * the process here is first verified that left node is smaller than the root
  * then verify if the right node is bigger than the root.
  * after it verifies if the left subtree has nodes smaller than root
  * and the right subtree has bigger nodes than root
