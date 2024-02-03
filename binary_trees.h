@@ -17,7 +17,7 @@
  */
 struct binary_tree_s
 {
-	int a;
+	int n;
 	struct binary_tree_s *parent;
 	struct binary_tree_s *left;
 	struct binary_tree_s *right;
@@ -36,7 +36,7 @@ typedef struct binary_tree_s heap_t;
  */
 typedef struct link_s
 {
-	size_t a;
+	size_t n;
 	struct binary_tree_s const *node;
 	struct link_s *next;
 } link_t;
